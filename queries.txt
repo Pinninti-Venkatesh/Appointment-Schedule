@@ -1,0 +1,4 @@
+create table appointments(location varchar(100),service varchar(100),date_time datetime,user varchar(100))
+
+create table locations (location varchar(100),service varchar(100))
+create table users(username varchar(100) primary,password varchar(100),email varchar(100))
